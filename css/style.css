@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+/* fonts imported */
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1110px;
+    margin: 0 auto;
+    background: #ff7b7b;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* ========= Common css ========= */
+header{
+    background: #E6F0FF;
+    height: 736px;
+}
+.navigation{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 38px 0;
+}
+.nav_half{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.nav_half .menu{
+    width: 371px;
+}
+.nav_half .menu ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.nav_half .menu ul li a{
+    padding: 0 12px;
+    font-weight: medium;
+    font-size: 14px;
+}
+.nav_half .menu ul li:first-child a{
+    padding-left: 0px;
+}
+.nav_half .menu ul li:last-child a{
+    padding-right: 10px;
+}
+.nav_half #register{
+    position: absolute;
+    right: 0;
+}
+.nav_half #register .reg{
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 10px;
+    background: transparent;
+    color: #0F1B4C
+}
+.nav_half #register .reg.btn{
+    background: #121B3A;
+    color: #fff;
+}
+.nav_half #register{
+    
+}
+/* ========= header ends css ========= */
